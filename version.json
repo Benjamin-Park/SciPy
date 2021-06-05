@@ -1,0 +1,5 @@
+{
+  "version_stable": "1.0.0",
+  "version_beta": "1.1.0-beta",
+  "inherit": true
+}

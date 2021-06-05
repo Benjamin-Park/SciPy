@@ -1,0 +1,26 @@
+{
+  "prefix": "<ctrl>+<alt>+i",
+
+  "greek": {
+    "delta": "d",
+    "delta_lower": "f",
+    "pi": "p"
+  },
+  "math": {
+    "plus_minus": "-",
+    "less_equal": ",",
+    "greater_equal": ".",
+    "not_equal": "n",
+    "multiply": "m"
+  },
+  "unit": {
+    "degree": "a"
+  },
+  "chem": {
+    "reaction_arrow": "r",
+    "equilibrium": "e"
+  },
+  "logic": {
+    "therefore": "/"
+  }
+}
