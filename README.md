@@ -1,12 +1,23 @@
-# SciSym v1.0.0
+# SciSym
+![version](https://img.shields.io/badge/Version-1.1.0-blue)
+[![changelog](https://img.shields.io/badge/Changelog-📃-lightgrey)](./CHANGELOG.md)
+
 Insert scientific symbols using customisable keyboard shortcuts.
 
 ## Prerequisites
-- Python 3.6+
+- [Python 3.6+](https://www.python.org/downloads/)
 - pynput
+
+```sh
+python -m pip install -r requirements.txt
+```
+
 
 ## Using SciSym
 To launch SciSym execute `main.py`
+```sh
+python -m main.py
+```
 
 ### Default Shortcut Mappings:
 
@@ -18,6 +29,7 @@ To launch SciSym execute `main.py`
 | **Command** | **Shortcut** |
 | `Δ` Insert `Greek Delta` | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> + <kbd>D</kbd> |
 | `δ` Insert `Greek Delta (lowercase)` | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> + <kbd>F</kbd> |
+| `λ` Insert `Greek Lambda (lowercase)` | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> + <kbd>L</kbd> |
 | `π` Insert `Greek Pi (lowercase)` | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> + <kbd>P</kbd> |
 | <hr><h4>**Mathematics** ||
 | **Command** | **Shortcut** |

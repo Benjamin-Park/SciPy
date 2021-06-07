@@ -20,9 +20,9 @@ def check_update():
     try:
         update_manifest = urllib.request.urlopen(UPDATER_URL)
         manifest = json.loads(update_manifest.read())
-        if (version.Version(SciSym.SciSym.__version__) < version.Version(manifest[UPDATE_BRANCH])):
+        if (version.LooseVersion(SciSym.SciSym.__version__) < version.LooseVersion(manifest[UPDATE_BRANCH])):
             print(
-                f"Update Available!\nCurrent version: {SciSym.SciSym.__version__}\nLatest version: {manifest[UPDATE_BRANCH]}")
+                f"Update Available!\nCurrent version: {SciSym.SciSym.__version__}\nLatest version: {manifest[UPDATE_BRANCH]}\n")
             if (AUTO_UPDATE):
                 print("Updating...")
                 get_update()
