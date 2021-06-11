@@ -6,12 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Customise which symbols are insertable
-- Define symbols and their shortcuts in `shortcuts.json`
 - Binary executables
 
 ### Changed
 - Default shortcut keys remap
+
+## [1.2.0] - 2021-06-10
+### Added
+- Customise which symbols are insertable
+- Define symbols and their shortcuts in `shortcuts.json`
+- License (MIT)
+
+### Fixed
+- Issue with shortcuts only triggering last defined value for lambda function
 
 ## [1.1.0] - 2021-06-06
 ### Added

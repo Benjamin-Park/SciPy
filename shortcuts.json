@@ -2,26 +2,65 @@
   "prefix": "<ctrl>+<alt>+i",
 
   "greek": {
-    "delta": "d",
-    "delta_lower": "f",
-    "lambda": "l",
-    "pi": "p"
+    "delta": {
+      "key": "d",
+      "char": "Δ"
+    },
+    "delta_lower": {
+      "key": "f",
+      "char": "δ"
+    },
+    "lambda": {
+      "key": "l",
+      "char": "λ"
+    },
+    "pi": {
+      "key": "p",
+      "char": "π"
+    }
   },
   "math": {
-    "plus_minus": "-",
-    "less_equal": ",",
-    "greater_equal": ".",
-    "not_equal": "n",
-    "multiply": "m"
+    "plus_minus": {
+      "key": "-",
+      "char": "±"
+    },
+    "less_equal": {
+      "key": ",",
+      "char": "≤"
+    },
+    "greater_equal": {
+      "key": ".",
+      "char": "≥"
+    },
+    "not_equal": {
+      "key": "n",
+      "char": "≠"
+    },
+    "multiply": {
+      "key": "m",
+      "char": "×"
+    }
   },
   "unit": {
-    "degree": "a"
+    "degree": {
+      "key": "a",
+      "char": "°"
+    }
   },
   "chem": {
-    "reaction_arrow": "r",
-    "equilibrium": "e"
+    "reaction_arrow": {
+      "key": "r",
+      "char": "⟶"
+    },
+    "equilibrium": {
+      "key": "e",
+      "char": "⇌"
+    }
   },
   "logic": {
-    "therefore": "/"
+    "therefore": {
+      "key": "/",
+      "char": "∴"
+    }
   }
 }

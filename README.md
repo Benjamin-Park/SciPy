@@ -1,6 +1,7 @@
 # SciSym
-![version](https://img.shields.io/badge/Version-1.1.0-blue)
+![version](https://img.shields.io/badge/Version-1.2.0-blue)
 [![changelog](https://img.shields.io/badge/Changelog-📃-lightgrey)](./CHANGELOG.md)
+[![license](https://img.shields.io/badge/License-MIT-default)](./LICENSE)
 
 Insert scientific symbols using customisable keyboard shortcuts.
 
@@ -49,3 +50,27 @@ python -m main.py
 
 ## Customising
 Shortcuts can be changed by editing the `shortcuts.json` file. If two or more commands are bound the same shortcut key, only the last one defined in the file will be triggered.
+
+A shortcut is structured as follows:
+```json
+"category":
+{
+  "symbol":
+  {
+    "key": "k",
+    "char": "?"
+  }
+}
+```
+
+e.g. Insert a smiley face `☺` when <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd> + <kbd>S</kbd> is pressed
+```json
+"custom":
+{
+  "smiley_face":
+  {
+    "key": "s",
+    "char": "☺"
+  }
+}
+```
