@@ -5,7 +5,7 @@ from pynput import keyboard
 
 
 class SciSym:
-    __version__ = "1.2.0"
+    __version__ = "1.3.0"
 
     def __init__(self):
         # Create and assign keyboard controller object

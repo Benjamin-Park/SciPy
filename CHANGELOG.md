@@ -6,10 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Binary executables
+- Binary executables for other platforms
 
 ### Changed
 - Default shortcut keys remap
+
+## [1.3.0] - 2021-07-09
+### Added
+- Binary executable for Windows x86
+- Project icon
+
+### Changed
+- Visual overhaul of project `README.md`
+- Improved installation instructions
+
+### Removed
+- Updater script `update.py`
+- External version file `version.json`
 
 ## [1.2.0] - 2021-06-10
 ### Added
