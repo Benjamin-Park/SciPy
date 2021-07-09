@@ -1,5 +1,5 @@
-<center>
-<img src="icon.png" alt="SciSym" width=40%/>
+<div align="center">
+<img src="icon.png" alt="SciSym" width=200px/>
 
 # SciSym
 Insert scientific symbols using customisable keyboard shortcuts.
@@ -8,7 +8,7 @@ Insert scientific symbols using customisable keyboard shortcuts.
 [![changelog](https://img.shields.io/badge/Changelog-📃-lightgrey)](./CHANGELOG.md)
 [![license](https://img.shields.io/badge/License-MIT-default)](./LICENSE)
 ![powered-by](https://img.shields.io/badge/Powered_by-Python-yellow?logo=python)
-</center><br>
+</div><br>
 
 ## Getting Started
 #### All platforms
