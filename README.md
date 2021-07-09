@@ -1,9 +1,29 @@
+<center>
+<img src="icon.png" alt="SciSym" width=40%/>
+
 # SciSym
-![version](https://img.shields.io/badge/Version-1.2.0-blue)
+Insert scientific symbols using customisable keyboard shortcuts.
+
+[![version](https://img.shields.io/github/v/release/Benjamin-Park/SciSym?logo=github&sort=semver)](https://github.com/Benjamin-Park/SciSym/releases)
 [![changelog](https://img.shields.io/badge/Changelog-📃-lightgrey)](./CHANGELOG.md)
 [![license](https://img.shields.io/badge/License-MIT-default)](./LICENSE)
+![powered-by](https://img.shields.io/badge/Powered_by-Python-yellow?logo=python)
+</center><br>
 
-Insert scientific symbols using customisable keyboard shortcuts.
+## Getting Started
+#### All platforms
+Download the [latest release](https://github.com/Benjamin-Park/SciSym/releases/latest) python source code files.
+Ensure that all [dependencies](#prerequisites) are installed. To launch SciSym execute `main.py`
+
+```sh
+python -m main.py
+```
+
+#### Linux
+Binary packages are not currently available. See [all platforms](#all-platforms) for instructions for running from source and ensure that your distro uses `python3`. Precompiled `rpm` and `deb` packages may be released in future.
+
+#### Windows
+Download and extract the [latest release](https://github.com/Benjamin-Park/SciSym/releases/latest/download/scisym-win32.zip) binary for Windows or the python source files for any platform. To launch SciSym run `SciSym.exe`
 
 ## Prerequisites
 - [Python 3.6+](https://www.python.org/downloads/)
@@ -15,10 +35,6 @@ python -m pip install -r requirements.txt
 
 
 ## Using SciSym
-To launch SciSym execute `main.py`
-```sh
-python -m main.py
-```
 
 ### Default Shortcut Mappings:
 
